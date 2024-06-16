@@ -1,14 +1,15 @@
 import "./App.css";
-// import ContactForm from "./components/ContactForm/ContactForm";
-// import SearchBox from "./components/SearchBox/SearchBox";
-// import ContactList from "./components/ContactList/ContactList";
+import ContactForm from "./components/ContactForm/ContactForm";
+
+import ContactList from "./components/ContactList/ContactList";
+import SearchBox from "./components/SearchBox/SearchBox";
 const App = () => {
   return (
     <>
       <h1>Phonebook</h1>
-      {/* <ContactForm />
+      <ContactForm />
       <SearchBox />
-      <ContactList /> */}
+      <ContactList />
     </>
   );
 };
