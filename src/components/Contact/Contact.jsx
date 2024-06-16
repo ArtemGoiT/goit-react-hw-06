@@ -20,7 +20,7 @@ const Contact = ({ contact }) => {
   );
 };
 
-Contact.PropTypes = {
+Contact.propTypes = {
   contact: PropTypes.shape({
     id: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
